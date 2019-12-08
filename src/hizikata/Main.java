@@ -6,8 +6,8 @@ class main {
         str = null;
         try {
             System.out.println(str.length());
-            throw new NullPointerException("例外が発生しました");
         }catch (Exception e){
+            System.out.println("例外が発生しました");
             System.out.println(e.getMessage());
         }
 
